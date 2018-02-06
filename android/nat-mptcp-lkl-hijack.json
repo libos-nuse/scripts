@@ -1,0 +1,22 @@
+{
+	"debug":"1",
+	"gateway":"192.168.1.1",
+	"delay_main":"500000",
+	"interfaces": [
+		        {
+				"ip":"192.168.1.2",
+				"masklen":"24",
+				"type": "tap",
+				"param": "lklwlantap0",
+				"ifgateway":"192.168.1.1"
+			},
+		        {
+				"ip":"192.168.0.2",
+				"masklen":"24",
+				"type": "tap",
+				"param": "lklrmnettap0",
+				"ifgateway":"192.168.0.1"
+			}
+	]
+}
+
