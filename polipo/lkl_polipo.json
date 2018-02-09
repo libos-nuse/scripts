@@ -1,0 +1,24 @@
+{
+	"debug":"1",
+	"gateway":"",
+	"interfaces":[
+		{
+			"type":"macvtap",
+			"param":"/dev/tap23",
+			"mac":"",
+			"ip":"",
+			"masklen":"26",
+			"ifgateway":""
+		},
+		{
+			"type":"raw",
+			"param":"wlp0s20f0u6",
+			"mac":"",
+			"ip":"",
+			"masklen":"24",
+			"ipv6":"",
+			"masklen6":"64",
+			"ifgateway":""
+		}
+	]
+}
